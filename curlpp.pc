@@ -1,0 +1,12 @@
+# This is a comment
+prefix=/
+exec_prefix=${prefix}
+includedir=${prefix}/include
+
+Name: curlpp
+Description: cURLpp is a libcurl C++ wrapper
+Version: 0.7.3                           
+Libs: -L${exec_prefix}/lib -lcurlpp -stdlib=libc++  -lstdc++ -L/opt/local/lib -lcurl -lidn -lssl -lcrypto -lssl -lcrypto -lz
+Cflags: -I${prefix}/include  -I/opt/local/include -I/Users/chris/src/compounds/third_party/curlpp/../../.gen-files/third_party/curlpp/../boost/include
+
+ 
