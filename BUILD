@@ -7,7 +7,8 @@
                         "--with-boost=$ROOT_DIR/$BOOST_ROOT"
     ],
     "dependencies": [ "../boost:boost" ],
-    "outs": [ "$GEN_DIR/lib/libcurlpp.a", "$GEN_DIR/lib/libutilspp.a" ]
+    "outs": [ "$GEN_DIR/lib/libcurlpp.a", "$GEN_DIR/lib/libutilspp.a" ],
+    "licenses": [ "http://opensource.org/licenses/mit-license.php" ]
 } },
 { "cc_library": {
     "name": "curlpp",
